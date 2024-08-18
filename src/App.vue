@@ -118,6 +118,20 @@ li {
   border-bottom: 1px solid #ddd;
 }
 
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #8ea728; /* Couleur de fond verte */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838; /* Couleur verte plus foncée lors du survol */
+}
+
 li:last-child {
   border-bottom: none;
 }
